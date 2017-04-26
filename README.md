@@ -34,9 +34,10 @@ This is a sample Java / Maven / Spring Boot application. This application is pac
 Once the application runs you should see something like this
 
 ```
-	2017-04-27 02:21:44.289[0;39m [32m INFO[0;39m [35m47884[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.c.e.t.TomcatEmbeddedServletContainer[0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http)
-[2m2017-04-27 02:21:44.304[0;39m [32m INFO[0;39m [35m47884[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.r.w.JavaWebCrawlerApplication         [0;39m [2m:[0;39m Started JavaWebCrawlerApplication in 12.083 seconds (JVM running for 13.149)
-[2m
+2017-04-27 02:21:44.289 [0;39m  [32m INFO [0;39m  [35m47884 [0;39m  [2m--- [0;39m  [2m[           main] [0;39m  [36ms.b.c.e.t.TomcatEmbeddedServletContainer [0;39m  [2m: [0;39m Tomcat started on port(s): 8080 (http)
+ [2m
+ 2017-04-27 02:21:44.304 [0;39m  [32m INFO [0;39m  [35m47884 [0;39m  [2m--- [0;39m  [2m[           main] [0;39m  [36mc.r.w.JavaWebCrawlerApplication          [0;39m  [2m: [0;39m Started JavaWebCrawlerApplication in 12.083 seconds (JVM running for 13.149)
+ [2m
 ```
 
 ## Test the service
