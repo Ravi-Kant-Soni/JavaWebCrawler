@@ -20,18 +20,33 @@ We would like to see:
 ## Description
 This project is using **jsoup** internally to crawl pages.
 
-## How to build:
-
-To build run the bellow command on the project's root directory
-
-	mvn clean install
-
 ## How to Run
+
+This is a sample Java / Maven / Spring Boot application. This application is packaged as a war which has Tomcat 8 embedded. No Tomcat or JBoss installation is necessary. You run it using the java -jar command.
+- Clone this repository
+- Make sure you are using JDK 1.8 and Maven 3.x
+- You can **build** the project and run the tests by running 
+	mvn clean package
+- Once successfully built, you can run the service by
+	mvn spring-boot:run
+- Check the stdout to make sure no exceptions are thrown
+
+Once the application runs you should see something like this
+
+```
+	2017-04-27 02:21:44.289[0;39m [32m INFO[0;39m [35m47884[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.b.c.e.t.TomcatEmbeddedServletContainer[0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http)
+[2m2017-04-27 02:21:44.304[0;39m [32m INFO[0;39m [35m47884[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.r.w.JavaWebCrawlerApplication         [0;39m [2m:[0;39m Started JavaWebCrawlerApplication in 12.083 seconds (JVM running for 13.149)
+[2m
+```
 
 ## Test the service
 
-- visit http://localhost:8080/webcrawler, this will call restController. And start processing Crawler.
-- Visit http://localhost:8080/h2-console, select database 'jdbc:h2:mem:webCrawlerDB' and execute 'select * from crawler'
+- visit below link, this will call restController. And start processing Crawler.
+	http://localhost:8080/webcrawler, 
+
+- Visit below link for embeded h2 database, and select database **jdbc:h2:mem:webCrawlerDB** and execute 
+	http://localhost:8080/h2-console
+	'select * from crawler'
 
 ## TODO
 
