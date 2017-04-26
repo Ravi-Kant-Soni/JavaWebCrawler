@@ -32,7 +32,7 @@ public class CrawlerRestController {
 		log.info("processWebPage method called");
 		crawlerService.saveLinksFromPage(crawlerURL, baseURL);
 		return "open webpage: <b>http://localhost:8080/h2-console</b> </br> execute </br>"
-				+ "<b>select * from crawler</b></br/><b>select * from crawler where IS_EXTERNAL=FALSE</b>";
+				+ "<b>select * from crawler</b>";
 	}
 
 }
