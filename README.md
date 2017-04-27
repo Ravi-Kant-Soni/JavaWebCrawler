@@ -51,7 +51,6 @@ Once the application runs you should see something like this
 
 ## TODO
 
-* write UNIT test
 * Add comments for each functions
 * Sort the O/P in structured site map
 * Refactor for code improvement
